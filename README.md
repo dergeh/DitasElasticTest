@@ -9,9 +9,9 @@ the test results will be dumped into /target/surefire-reports
 
 to test specific modules you need to change the runTest.sh in line 45 add one of the following options at the end of the line
 
-** -Dtest=HeartbeatTest 
-** -Dtest=RequestMonitorTest 
-** -Dtest=VDCAgentTrafficTest 
+* -Dtest=HeartbeatTest 
+* -Dtest=RequestMonitorTest 
+* -Dtest=VDCAgentTrafficTest 
 
 
 
