@@ -7,9 +7,11 @@ the test results will be dumped into /target/surefire-reports
 
 ## Testing specific Modules
 
-to test specific modules you need to change the runTest.sh in line 19 replace mvn clesn install with
+to test specific modules you need to change the runTest.sh in line 45 add 
 
-* mvn clean test -Dtest=HeartbeatTest *
-* mvn clean test -Dtest=RequestMonitorTest *
-* mvn clean test -Dtest=VDCAgentTrafficTest *
+* -Dtest=HeartbeatTest 
+* -Dtest=RequestMonitorTest 
+* -Dtest=VDCAgentTrafficTest 
+
+at the end of the line 
 
