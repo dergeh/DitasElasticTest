@@ -12,6 +12,7 @@ to test specific modules you need to change the runTest.sh in line 45 add one of
 * -Dtest=HeartbeatTest 
 * -Dtest=RequestMonitorTest 
 * -Dtest=VDCAgentTrafficTest 
+* -Dtest=DockbeatTest 
 
 
 
