@@ -7,7 +7,7 @@ the test results will be dumped into /target/surefire-reports
 
 ## Testing specific Modules
 
-to test a specific module run run`ComponentName`Test.sh 
+to test a specific module execute "run`ComponentName`Test.sh" 
 for the whole project execute runAllTest.sh
 
 
